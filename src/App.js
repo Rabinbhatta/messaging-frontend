@@ -62,14 +62,14 @@ function App() {
           <div className="flex items-center justify-center bg-red-500 h-[80px] rounded-t-lg">
             <h1 className="text-3xl text-gray-300">Message</h1>
           </div>
-          <div className="flex flex-col items-center justify-center bg-red-100 h-full">
+          <div className="flex flex-col items-center justify-center bg-red-100 h-[600px]   overflow-y-auto">
             {messages.length === 0 ? (
-              <h1 className="text-2xl text-gray-400">No messages yet</h1>
+              <h1 className="text-2xl text-gray-400 ">No messages yet</h1>
             ) : (
               messages.map((msg, index) => (
                 <div
                   key={index}
-                  className={`w-[80%] my-2 p-2 rounded-lg ${
+                  className={`w-[80%]  my-2 p-2 rounded-lg ${
                     msg.sender === sender ? "bg-red-300" : "bg-blue-300"
                   }`}
                 >
