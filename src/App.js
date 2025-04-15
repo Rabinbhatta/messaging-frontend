@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="flex items-center justify-center w-screen h-screen bg-red-200">
-      <div className="h-[700px] w-[500px] bg-white rounded-lg shadow-md">
+      <div className="h-[550px] w-[500px] bg-white rounded-lg shadow-md">
         <div className="flex flex-col justify-between h-full">
           <div className="flex items-center justify-center bg-red-500 h-[80px] rounded-t-lg">
             <h1 className="text-3xl text-gray-300">Message</h1>
